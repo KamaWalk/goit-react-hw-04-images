@@ -1,17 +1,17 @@
 import React from 'react';
-import { Hourglass } from 'react-loader-spinner';
+import { Puff } from 'react-loader-spinner';
 
 const Loader = () => {
   return (
-    <Hourglass
-      visible={true}
-      height={40}
-      width={40}
-      ariaLabel="hourglass-loading"
-      wrapperStyle={{}}
-      wrapperClassName=""
-      colors={['#306cce', '#72a1ed']}
-    />
+    <Puff
+  visible={true}
+  height="80"
+  width="80"
+  color="#c21b9b"
+  ariaLabel="puff-loading"
+  wrapperStyle={{}}
+  wrapperClass=""
+  />
   );
 };
 

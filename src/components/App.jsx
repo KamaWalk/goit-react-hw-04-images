@@ -7,7 +7,7 @@ import Loader from './Loader/Loader.js';
 import Modal from './Modal/Modal.js';
 import './styles.css';
 
-const App = () => {
+export const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -75,4 +75,4 @@ const App = () => {
   );
 };
 
-export default App;
+// export default App;
